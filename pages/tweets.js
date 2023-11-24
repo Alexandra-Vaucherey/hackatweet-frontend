@@ -1,5 +1,5 @@
 import Main from '../components/Main';
-function Feed() {
+function Tweets() {
 
 return <Main/>
 
@@ -10,4 +10,4 @@ return <Main/>
 
 
 
-export default Feed;
+export default Tweets;

@@ -1,23 +1,19 @@
 .container{
     display: grid;
-    
     background-color: rgb(15, 11, 31);
     height: 100vh;
     color: white;
     justify-content: center;
 }
 
-.h1{
- align-items: flex-start;
-}
 
 
 
-.middle{
+.middlestuff{
     display: grid;
     text-align: center;
     align-items: column;
-    
+    background-color: rgb(15, 11, 31);
 }
 
 .bird{
@@ -31,4 +27,50 @@
    width: 50%;
    height: 40%;
    position: center;
+   border: black;
+
+}
+
+.mainContainer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.comment-container{
+    height: 75px;
+    width: 405px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.comment-flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: 
+}
+
+.comment-text{
+    margin:12px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: black;
+}
+
+
+.input-box{
+    height: 75px;
+    width: 425px;
+    background-color: white;
+
 }
