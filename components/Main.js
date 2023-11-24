@@ -1,23 +1,37 @@
-import main from '../styles/main.module.css'
+import styles from '../styles/Main.module.css'
 
-function main{
+function Main() {
 
-
-    return (
+return(
+<div className={styles.container}>
+   
 
 <div>
-    <h1>
-        Home
-    </h1>
+    <img className={styles.bird} 
+    src="/images/white-logo.webp" />
+</div>
+   
+
+<div className={styles.middle}>
+<h1>
+    Home
+</h1>
+
+
+<input  textarea 
+        className={styles.textbox} 
+        name="Comments" 
+        required minlength="10" 
+        maxlength="280" 
+    />
+
+
 
 </div>
+</div>
+ )
+} 
 
 
-
-
-    )
-}
-
-
-export default main;
+export default Main;
 

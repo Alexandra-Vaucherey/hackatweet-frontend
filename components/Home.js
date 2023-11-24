@@ -25,7 +25,7 @@ function Home() {
 
     const [modelOpen, setOpener] = useState(false);
     const ModelShow = () => {
-      setModel(true);
+      setModelOpen(true);
     };
     const handle = () => {
       setOpener(false);
